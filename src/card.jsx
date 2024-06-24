@@ -2,9 +2,9 @@
 function Card(){
     return(
         <div className="card">
-            <img alt="Profile picture" src="https://via.placeholder.com/150"></img>
-            <h2>Bro code</h2>
-            <p>Queen Mary University of London
+            <img className="card-image" alt="Profile picture" src="https://via.placeholder.com/150"></img>
+            <h2 className="card-title">Bro code</h2>
+            <p className="card-text">Queen Mary University of London
             </p>
         </div>
     );
